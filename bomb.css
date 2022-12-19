@@ -1,0 +1,129 @@
+section{
+
+  margin-top: 100px;
+  margin-left: 340px;
+  position: relative;
+  max-width: 500px;
+  animation: explosion 7s ease-in-out forwards;
+
+}
+
+img {
+    
+  position: relative;
+  opacity: 0;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 1.2s;
+  animation-name: bomba;
+  
+  
+  }
+
+  h1{
+
+ position: relative;   
+ animation-name: fall;
+ animation-duration: 1s;
+ animation-fill-mode: forwards;
+ animation-delay: 6s;
+ color: blue;
+
+  }
+
+  @keyframes fall{
+
+  from{
+  top: 0px;
+
+  }
+
+  to{
+  
+
+  top: 330px;
+  color: rgb(45, 41, 41);
+  
+  
+
+  }
+
+  }
+
+
+  @keyframes bomba{
+
+    0% {
+      opacity: 1;
+      left: 0px;
+      top: 0px;
+   
+      
+    }
+  
+  
+    40% {
+      
+      opacity: 1;
+     
+      
+    }
+  
+    80% {
+      
+      opacity: 1;
+     
+    }
+  
+    90% {
+      
+      opacity: 1;
+    
+      
+    }
+    
+    98% {
+      
+      opacity: 1;
+      top: 95vh;
+   
+    
+    }
+    
+    
+   
+  }
+
+
+@keyframes explosion{
+
+
+60%{
+
+  rotate: 0deg;
+  
+
+}
+
+90%{
+
+  rotate: 20deg;
+  color: rgb(235, 63, 20);
+  background-image: url("d7ac4f38b77abe73165d85edf2cbdb9e_w200.gif");
+
+}
+
+
+100%{
+
+rotate: -15deg;
+background-image: url("c3bfe5a76cb798b374ecc7edd6bb0237.gif");
+
+
+}
+
+
+} 
+
+  
